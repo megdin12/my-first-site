@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Мой сайт</title>
+    <style>
+      /* 1. Стили для всей страницы */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f2f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+      }
+
+      /* 2. Стили для карточки */
+      .card {
+        background: black;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 500px;
+        width: 100%;
+      }
+
+      /* 3. Стили для аватарки */
+      .card img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        /*border: 4px solid #4caf50;*/
+      }
+
+      /* 4. Заголовок */
+      .card h1 {
+        color: rgb(219, 118, 46);
+        margin-bottom: 5px;
+        font-size: 28px;
+      }
+
+      /* 5. Подзаголовок */
+      .card h2 {
+        color: #4caf50;
+        font-weight: normal;
+        margin-top: 30px;
+        /*border-bottom: 4px solid #4caf50;*/
+        display: inline-block;
+        padding-bottom: 5px;
+      }
+
+      /* 6. Текст */
+      .card p {
+        color: #555;
+        font-size: 18px;
+        margin: 15px 0;
+      }
+
+      /* 7. Список */
+      .card ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .card ul li {
+        background: #e8f5e9;
+        margin: 10px 0;
+        padding: 12px;
+        border-radius: 10px;
+        color: #2e7d32;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      /* 8. Подпись под аватаркой */
+      .subtitle {
+        color: #888;
+        font-size: 14px;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <!-- Аватар -->
+      <img src="avatar.png" alt="Моё фото" />
+
+      <!-- Подпись под аватаркой -->
+      <p class="subtitle">✨ начинающий разработчик</p>
+
+      <!-- Заголовок -->
+      <h1>Привет, я Мегдин!</h1>
+
+      <!-- Текст -->
+      <p>Я учусь создавать сайты с нуля 🚀</p>
+
+      <!-- Подзаголовок -->
+      <h2>Мои увлечения</h2>
+
+      <!-- Список -->
+      <ul>
+        <li>💻 Программирование</li>
+        <li>📚 Чтение книг</li>
+        <li>💪 Прокачка тела</li>
+        <li>🎬 Просмотр фильмов</li>
+      </ul>
+    </div>
+  </body>
+</html>
